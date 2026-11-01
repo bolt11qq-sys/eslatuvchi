@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tanish</string>
+
+    <!-- Bosh ekran -->
+    <string name="home_placeholder">Tanish</string>
+    <string name="lock_description">Qarovchi rejimi</string>
+
+    <!-- Jurnal -->
+    <string name="journal_title">Jurnal</string>
+    <string name="journal_empty">Jurnal bo\'sh. Hozircha xato qayd etilmagan.</string>
+    <string name="journal_copy">Nusxa olish</string>
+    <string name="journal_copied">Jurnal nusxalandi</string>
+    <string name="journal_clear">Tozalash</string>
+    <string name="journal_cleared">Jurnal tozalandi</string>
+    <string name="back">Orqaga</string>
+    <string name="journal_test_entry">Sinov yozuvi</string>
+    <string name="journal_test_crash">Sinov: ilovani yopish</string>
+    <string name="journal_read_error">Jurnalni o\'qib bo\'lmadi</string>
+</resources>
