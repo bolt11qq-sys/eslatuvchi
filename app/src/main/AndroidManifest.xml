@@ -2,7 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- INTERNET ruxsati ataylab qo'shilmagan (TZ, 2- va 8-bo'lim). -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!--
+        INTERNET ruxsati yo'q (TZ, 2- va 8-bo'lim).
+        ML Kit kutubxonalari o'z manifestida tarmoq ruxsatlarini so'raydi — ularni majburan olib tashlaymiz.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+
+    <uses-feature android:name="android.hardware.camera.any" android:required="true" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
 
     <application
         android:name=".TanishApp"
@@ -20,6 +31,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.Tanish">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

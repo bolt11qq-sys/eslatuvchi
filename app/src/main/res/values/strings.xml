@@ -2,9 +2,154 @@
 <resources>
     <string name="app_name">Tanish</string>
 
-    <!-- Bosh ekran -->
-    <string name="home_placeholder">Tanish</string>
+    <!-- Umumiy -->
+    <string name="back">Orqaga</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="save">Saqlash</string>
+    <string name="saved">Saqlandi</string>
+    <string name="delete">O\'chirish</string>
+    <string name="yes_delete">Ha, o\'chirish</string>
+    <string name="no">Yo\'q</string>
+    <string name="generic_error">Nimadir ishlamadi. Qaytadan urinib ko\'ring.</string>
+    <string name="open_settings">Telefon sozlamalarini ochish</string>
+    <string name="switch_camera">Kamerani almashtirish</string>
+
+    <!-- Ogohlantirish (birinchi ochilish) -->
+    <string name="disclaimer_title">Xush kelibsiz</string>
+    <string name="disclaimer_text">Bu ilova yordamchi vosita, tibbiy qurilma emas. Rasmlar faqat shu telefonda saqlanadi.</string>
+    <string name="disclaimer_ok">Tushundim</string>
+
+    <!-- PIN -->
+    <string name="pin_setup_title">PIN o\'rnating</string>
+    <string name="pin_setup_hint">Qarovchi rejimiga kirish uchun 4–6 raqamli PIN o\'ylab toping.</string>
+    <string name="pin_new_title">Yangi PIN</string>
+    <string name="pin_confirm_title">PIN\'ni yana bir bor kiriting</string>
+    <string name="pin_mismatch">PIN\'lar mos kelmadi. Qaytadan kiriting.</string>
+    <string name="pin_too_short">Kamida 4 ta raqam kiriting</string>
+    <string name="pin_enter_title">PIN kiriting</string>
+    <string name="pin_wrong">PIN noto\'g\'ri</string>
+    <string name="pin_wait">Ko\'p marta noto\'g\'ri kiritildi. %1$d soniya kuting.</string>
+    <string name="pin_continue">Davom etish</string>
+    <string name="pin_enter_button">Kirish</string>
+    <string name="pin_erase">Raqamni o\'chirish</string>
+    <string name="pin_changed">PIN o\'zgartirildi</string>
+
+    <!-- Bemor: bosh ekran -->
+    <string name="who_is_this">Bu kim?</string>
     <string name="lock_description">Qarovchi rejimi</string>
+
+    <!-- Bemor: kamera -->
+    <string name="camera_point_face">Kamerani yuzga qarating</string>
+    <string name="camera_wait">Biroz kuting…</string>
+    <string name="camera_closer">Biroz yaqinroq keling</string>
+    <string name="camera_permission_title">Kameraga ruxsat kerak</string>
+    <string name="camera_permission_text">Odamlarni tanish uchun ilova kamerani ishlatadi. Rasmlar telefondan chiqmaydi.</string>
+    <string name="camera_permission_button">Ruxsat berish</string>
+    <string name="camera_error">Kamerani ochib bo\'lmadi. Birozdan keyin qayta urinib ko\'ring.</string>
+    <string name="model_error">Tanish moduli ishga tushmadi. Ilovani yopib, qayta oching.</string>
+
+    <!-- Bemor: natija -->
+    <string name="play_again">Yana eshitish</string>
+    <string name="go_home">Bosh ekran</string>
+    <string name="try_again">Qayta urinish</string>
+    <string name="not_known">Bu odamni tanimayman</string>
+    <string name="not_sure">Aniq bilmayman, yaqinroq qarating</string>
+
+    <!-- Qarovchi: odamlar ro\'yxati -->
+    <string name="people_title">Odamlar</string>
+    <string name="people_add">Odam qo\'shish</string>
+    <string name="people_empty">Hali hech kim qo\'shilmagan. «Odam qo\'shish» tugmasini bosing.</string>
+    <string name="people_samples">%1$d ta yuz namunasi</string>
+    <string name="people_samples_low">%1$d ta yuz namunasi — kamida 10 ta kerak</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="patient_mode">Bemor rejimiga qaytish</string>
+
+    <!-- Qarovchi: odam qo\'shish / tahrirlash -->
+    <string name="person_new">Yangi odam</string>
+    <string name="person_edit">Tahrirlash</string>
+    <string name="person_name">Ism</string>
+    <string name="person_relation">Kimligi (masalan: qizingiz)</string>
+    <string name="person_display_text">Ekranda chiqadigan matn</string>
+    <string name="display_text_format">Bu — %1$s %2$s</string>
+    <string name="person_required">Ism va kimligini kiriting</string>
+    <string name="person_photo">Asosiy rasm</string>
+    <string name="person_photo_pick">Galereyadan rasm tanlash</string>
+    <string name="person_photo_none">Rasm yo\'q. Galereyadan tanlang yoki yuz namunalarini oling — rasm avtomatik qo\'yiladi.</string>
+    <string name="person_photo_error">Rasmni yuklab bo\'lmadi</string>
+    <string name="person_save_first">Yuz namunalari va ovoz qo\'shish uchun avval «Saqlash» tugmasini bosing.</string>
+    <string name="person_samples">Yuz namunalari: %1$d ta</string>
+    <string name="person_samples_warning">Kamida 10 ta yuz namunasi kerak — aks holda bu odam tanilmaydi.</string>
+    <string name="person_samples_take">Yuz namunalarini olish</string>
+    <string name="person_samples_retake">Namunalarni qayta olish</string>
+    <string name="person_delete_title">%1$s o\'chirilsinmi?</string>
+    <string name="person_delete_text">Uning rasmlari, ovozi va yuz namunalari butunlay o\'chiriladi.</string>
+    <string name="person_deleted">O\'chirildi</string>
+
+    <!-- Qarovchi: ovoz -->
+    <string name="voice_title">Ovoz yozuvi (ixtiyoriy)</string>
+    <string name="voice_hint">Masalan: «Assalomu alaykum, oyijon, bu men — Malika». Maksimum 15 soniya.</string>
+    <string name="voice_none">Ovoz yozilmagan</string>
+    <string name="voice_exists">Ovoz yozilgan</string>
+    <string name="voice_start">Yozishni boshlash</string>
+    <string name="voice_stop">To\'xtatish</string>
+    <string name="voice_play">Tinglash</string>
+    <string name="voice_stop_play">Tinglashni to\'xtatish</string>
+    <string name="voice_rerecord">Qayta yozish</string>
+    <string name="voice_delete">Ovozni o\'chirish</string>
+    <string name="voice_recording">Yozilmoqda… %1$d / %2$d soniya</string>
+    <string name="voice_permission">Ovoz yozish uchun mikrofonga ruxsat kerak</string>
+    <string name="voice_error">Ovozni yozib bo\'lmadi</string>
+
+    <!-- Qarovchi: yuz namunalarini olish -->
+    <string name="capture_title">Yuz namunalari</string>
+    <string name="capture_counter">%1$d / %2$d</string>
+    <string name="capture_front">To\'g\'riga qarang</string>
+    <string name="capture_left">Biroz chapga</string>
+    <string name="capture_right">Biroz o\'ngga</string>
+    <string name="capture_up">Yuqoriga</string>
+    <string name="capture_down">Pastga</string>
+    <string name="capture_no_face">Yuz topilmadi</string>
+    <string name="capture_closer">Yaqinroq keling</string>
+    <string name="capture_blurry">Yuz xira — qimirlamay turing</string>
+    <string name="capture_dark">Yorug\'lik yetarli emas</string>
+    <string name="capture_turned">Boshni juda ko\'p burmang</string>
+    <string name="capture_good">Yaxshi!</string>
+    <string name="capture_done">Yetarli namuna olindi. «Saqlash» tugmasini bosing.</string>
+    <string name="capture_restart">Qayta boshlash</string>
+    <string name="capture_saved">Namunalar saqlandi</string>
+    <string name="capture_min_hint">Saqlash uchun kamida %1$d ta namuna kerak</string>
+
+    <!-- Qarovchi: sozlamalar -->
+    <string name="settings_threshold">Ishonch darajasi</string>
+    <string name="threshold_strict">Qat\'iy</string>
+    <string name="threshold_strict_desc">Ismni faqat juda ishonchli bo\'lganda aytadi</string>
+    <string name="threshold_medium">O\'rtacha</string>
+    <string name="threshold_medium_desc">Tavsiya etiladi</string>
+    <string name="threshold_soft">Yumshoq</string>
+    <string name="threshold_soft_desc">Ko\'proq taniydi, lekin xato ehtimoli yuqoriroq</string>
+    <string name="settings_font">Shrift o\'lchami</string>
+    <string name="font_normal">Katta</string>
+    <string name="font_large">Juda katta</string>
+    <string name="font_xlarge">Eng katta</string>
+    <string name="settings_voice">Ovozni ijro etish</string>
+    <string name="settings_voice_desc">Natija ekranida qarindosh ovozi eshittiriladi</string>
+    <string name="settings_change_pin">PIN\'ni o\'zgartirish</string>
+    <string name="settings_test">Tanishni sinash</string>
+    <string name="settings_journal">Jurnal</string>
+
+    <!-- Qarovchi: tanishni sinash -->
+    <string name="test_title">Tanishni sinash</string>
+    <string name="test_best">Eng yaqin: %1$s — %2$d%%</string>
+    <string name="test_second">Ikkinchi: %1$s — %2$d%%</string>
+    <string name="test_nobody">—</string>
+    <string name="test_verdict_match">Kadr: tanildi</string>
+    <string name="test_verdict_unknown">Kadr: notanish</string>
+    <string name="test_verdict_unsure">Kadr: aniq emas</string>
+    <string name="test_decision_match">Qaror: %1$s</string>
+    <string name="test_decision_unknown">Qaror: notanish</string>
+    <string name="test_decision_unsure">Qaror: aniq bilmayman</string>
+    <string name="test_thresholds">Chegaralar: pastki %1$d%%, yuqori %2$d%%, farq %3$d%%</string>
+    <string name="test_empty_db">Bazada yuz namunasi yo\'q</string>
 
     <!-- Jurnal -->
     <string name="journal_title">Jurnal</string>
@@ -13,7 +158,6 @@
     <string name="journal_copied">Jurnal nusxalandi</string>
     <string name="journal_clear">Tozalash</string>
     <string name="journal_cleared">Jurnal tozalandi</string>
-    <string name="back">Orqaga</string>
     <string name="journal_test_entry">Sinov yozuvi</string>
     <string name="journal_test_crash">Sinov: ilovani yopish</string>
     <string name="journal_read_error">Jurnalni o\'qib bo\'lmadi</string>
